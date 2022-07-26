@@ -1,0 +1,14 @@
+.page-title{
+
+}
+.filter-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &_left{
+        display: flex;
+    }
+    &_right{
+        display: flex;
+    }
+}
