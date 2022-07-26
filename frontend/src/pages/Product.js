@@ -3,6 +3,15 @@ import Navigation from '../components/Navigation'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import { Container, Row, Col, FormLabel, Form, Button } from 'react-bootstrap'
+
+import product1 from '../images/1.jpg'
+import product2 from '../images/2.jpg'
+import product3 from '../images/3.jpg'
+import product4 from '../images/4.jpg'
+import product5 from '../images/5.jpg'
+import product6 from '../images/12.jpg'
+import product7 from '../images/watch.jpg'
+
 const Product = () => {
     return (
         <>
@@ -13,10 +22,29 @@ const Product = () => {
                         <aside className="col-md-6">
                             <article className='gallery-wrap'>
                                 <a href="/#" className='big-image'>
-                                    Big image
+                                    <img src={product7} alt="" />
                                 </a>
                                 <div className="thumb-wrap">
-                                    small Image
+                                   
+                                    <a href="/#" className='item-thumb'>
+                                    <img src={product1} alt="product" />
+                                    </a>
+                                    <a href="/#" className='item-thumb'>
+                                    <img src={product2} alt="product" />
+                                    </a>
+                                    <a href="/#" className='item-thumb'>
+                                    <img src={product3} alt="product" />
+                                    </a>
+                                    <a href="/#" className='item-thumb'>
+                                    <img src={product4} alt="product" />
+                                    </a>
+                                    <a href="/#" className='item-thumb'>
+                                    <img src={product5} alt="product" />
+                                    </a>
+                                    <a href="/#" className='item-thumb'>
+                                    <img src={product6} alt="product" />
+                                    </a>
+
                                 </div>
                             </article>
                         </aside>

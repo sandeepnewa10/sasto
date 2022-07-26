@@ -3,7 +3,7 @@ import {Col} from 'react-bootstrap'
 
 const Product = ({ item }) => {
     return (
-        <Col sm="12" md='4'>
+        <Col sm="12" md='4'  className='mb-3'>
             <div className="product__item">
                 <div className="product__item-img">
                     <img src={item.img} alt='caption' className="img-fluid" />

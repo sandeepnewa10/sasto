@@ -1,4 +1,4 @@
-.product-detail-page {
+.product-template {
     .gallery-wrap {
         display: flex;
 
@@ -10,12 +10,37 @@
             margin-bottom: 1rem;
             overflow: hidden;
             order: 2;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                height: auto;
+                cursor: zoom-in;
+            }
         }
 
         .thumb-wrap {
             order: 1;
             width: 60px;
             margin-right: 1rem;
+
+            .item-thumb {
+                width: 60px;
+                height: 60px;
+                border: 1px solid #dee2e6;
+                border-radius: .35rem;
+                margin: 3px;
+                display: inline-block;
+                overflow: hidden;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    cursor: zoom-in;
+                }
+            }
         }
     }
 
