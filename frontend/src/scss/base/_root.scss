@@ -9,28 +9,39 @@
 body {
     font-family: var(--sm-font);
     color: var(--text-color);
+    background: #f5f5f9;
 }
 
 section {
     padding-top: 4rem;
     padding-bottom: 3rem;
 
-    @media (max-width: 575.98px) {
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-    }
+    // @media (max-width: 575.98px) {
+    //     padding-top: 3rem;
+    //     padding-bottom: 2rem;
+    // }
 
-    &:nth-child(odd) {
-        background: #f0f0f4;
-    }
+    // &:nth-child(odd) {
+    //     background: #f0f0f4;
+    // }
 
-    &:nth-child(even) {
-        background: #fff;       
-    }
+    // &:nth-child(even) {
+    //     background: #fff;       
+    // }
 }
 
 .page-title {
     margin-bottom: 2rem;
     text-align: center;
     text-transform: uppercase;
+}
+
+.btn-light{
+    border-color: #dee2e6;
+    background: #fff;   
+}
+.btn {
+    i{
+        color: #9da1a7;
+    }
 }

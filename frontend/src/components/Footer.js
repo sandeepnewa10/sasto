@@ -62,7 +62,7 @@ const Footer = () => {
                
             </Row>
             </div>
-            <div className="section-footer-bottom">
+            <div className="section-footer-bottom mt-3">
             © 2021 Sasto. All rights reserved. 
             </div>
            

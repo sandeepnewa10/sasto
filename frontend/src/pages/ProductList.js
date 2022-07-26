@@ -13,7 +13,7 @@ const ProductList = () => {
    <>
     <Navigation/>
     
-    <section>
+    <section className='productlist-template'>
         <Container>
             <div className="page-title"><h2>Page Title</h2></div>
             <div className="filter-wrap">

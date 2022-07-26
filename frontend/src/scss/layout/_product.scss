@@ -1,0 +1,34 @@
+.product-detail-page {
+    .gallery-wrap {
+        display: flex;
+
+        .big-image {
+            display: block;
+            text-align: center;
+            width: 100%;
+            height: 560px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            order: 2;
+        }
+
+        .thumb-wrap {
+            order: 1;
+            width: 60px;
+            margin-right: 1rem;
+        }
+    }
+
+}
+
+
+.checkbox-btn input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-btn input:checked~.btn {
+    border-color: #0d6efd;
+    background-color: #e9ecef;
+}
